@@ -62,7 +62,7 @@ class App extends Component {
         <h1 style={{ color: '#C70039' }}>Phonebook</h1>
         <ContactForm onSubmit={this.handleAddContact} />
 
-        <h2 style={{ color: '#2874A6' }}>Contacts</h2>
+        <h2 style={{ color: '#C70039' }}>Contacts</h2>
         <Filter filter={filter} onChange={this.handleFilterChange} />
         <ContactList
           contacts={filteredContacts}
